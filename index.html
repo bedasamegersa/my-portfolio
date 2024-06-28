@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTPOLIO Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />>
+    <script src="https://kit.fontasesome.com/c4254e24a8.js" crossorigin="anonymous"> </script>
+</head>
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li class="nav__item"> <a href="#skill" class="nav__link">My Skill</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Frotend web developer</p>
+                <h1> Hi,I'm <span>bedasa</span> <br>Megersa from ethiopia</h1>
+            </div>
+        </div>
+
+    </div>
+    <!------------------ABOUT ME---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="bedo.png"alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>
+                        As a software engineer, I am skilled in frontend development and possess a deep understanding of graphics. 
+                        With expertise in frontend development, I excel in creating visually appealing and user-friendly interfaces for web applications.
+                        My proficiency in programming languages, frameworks, and tools allows me to build robust and responsive frontend systems. 
+                        Moreover, my knowledge of graphics enables me to incorporate visually engaging designs and animations into my projects,
+                        elevating the overall user experience.
+                        With a combination of frontend development and graphics skills, I am well-equipped to develop innovative and captivating software solutions.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>frontend web</span><br>frontend web developement</li>
+                            <li><span>graphics</span><br>graphics designs</li>
+                            <li><span>UI/UI</span><br>for mobile application design</li>
+                            <li><span>backend web</span><br> backend web development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="Experience">
+                        <ul>
+                            <li><span>JavaScript,HTML,CSS</span><br> for frontend web</li>
+                            <li><span>python,php</span><br>for backend web </li>
+                            <li><span>java,kotilin</span><br>for mobile app</li>
+                            <li><span>React</span> <br> for frame user interface</li>
+                        </ul>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="myskill__Inner" id="skill">
+        <div class="myskill__header">
+          <h1>MY SKILL</h1>
+        </div>
+        <div class="myskill__container">
+          <div class="skill__box">
+            <div class="skill__tittle">
+              <div class="img">
+                <img src="html5.jpg" alt="" class="skill__icon" />
+              </div>
+              <h3>HTML 5</h3>
+            </div>
+            <p>
+              I have a strong foundation in HTML5, enabling me to create well-structured and semantically meaningful web content. My proficiency in HTML5 allows me to build accessible and SEO-friendly web pages.
+  
+            </p>
+          </div>
+          <div class="skill__box">
+            <div class="skill__tittle">
+              <div class="img">
+                <img src="css3.svg" alt="" class="skill__icon" />
+              </div>
+              <h3>CSS 3</h3>
+            </div>
+            <p>
+              My expertise in CSS3 helps me design visually appealing and responsive websites. I am skilled in using CSS frameworks, pre-processors, and techniques to create layouts that adapt seamlessly to different devices.
+  
+            </p>
+          </div>
+          <div class="skill__box">
+            <div class="skill__tittle">
+              <div class="img">
+                <img src="js.svg" alt="" class="skill__icon" />
+              </div>
+              <h3>JAVASCRIPT</h3>
+            </div>
+            <p>
+              I have extensive experience in JavaScript, allowing me to develop dynamic and interactive web applications. My skills include working with various JavaScript libraries and frameworks to enhance user experiences.
+  
+            </p>
+          </div>
+          <div class="skill__box">
+            <div class="skill__tittle">
+              <div class="img">
+                <img src="python.jpg" alt="" class="skill__icon" />
+              </div>
+              <h3>PYTHON</h3>
+            </div>
+            <p>
+              Proficient in Python, I can develop efficient backend systems and automate tasks. My knowledge extends to web frameworks such as Django and Flask, enabling me to build robust web applications.
+  
+            </p>
+          </div>
+          <div class="skill__box">
+            <div class="skill__tittle">
+              <div class="img">
+                <img src="react.svg" alt="" class="skill__icon" />
+              </div>
+              <h3>REACT</h3>
+            </div>
+            <p>
+              I specialize in using React to build high-performance, scalable front-end applications. My experience includes creating reusable components and managing state efficiently to deliver seamless user interfaces.
+  
+            </p>
+          </div>
+          <div class="skill__box">
+            <div class="skill__tittle">
+              <div class="img">
+                <img src="php.svg" alt="" class="skill__icon" />
+              </div>
+              <h3>PHP</h3>
+            </div>
+            <p>
+              With a solid background in PHP, I can develop server-side scripts and manage databases effectively. My expertise in PHP enables me to create dynamic, data-driven websites and web applications.
+  
+            </p>
+          </div>
+        </div>
+      </div>
+    <!-------------SERVICES-------------------->
+    <div class="services" id="services">
+        <div class="conntainer">
+            <h1 class=""sub-titles>MY SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code" style="font-size: 2rem;"></i>
+                    <h2>Frontend Web</h2>
+                    <p>Talented frontend web developer experienced in HTML, CSS, and JavaScript.<br>
+                        Creates engaging and user-friendly interfaces for websites.<br>
+                        Proficient in building responsive and visually appealing web pages.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple" style="font-size: 2rem;"></i>
+                    <h2>graphics</h2>
+                    <p>Experienced graphics designer skilled in creating visually captivating designs.<br>
+                        Proficient in utilizing industry-standard software for designing and editing.<br> 
+                        Delivers exceptional visual solutions for various projects.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store" style="font-size: 2rem;"></i>
+                    <h2>UI/UX Design </h2>
+                    <p>Hello! I'm a passionate and creative Mobile App Designer dedicated to crafting user-friendly and<b>
+                        visually appealing mobile applications and experience (UX) and user interface (UI) design principles, <b>
+                        <a href="#">Learn more</a>
+                        
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <!-------------CONTACT ME-------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane-top"></i>Bedasamegersa9@gmail.com</p>
+                    <p> <i class="fa-duotone fa-phone"></i>0942423551</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="back.png" download class="btn btn2">download File</a>
+                </div>
+                <div class="contact-left">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Name: Bedasa Megersa   ID:UGR/25480/14</p>
+            <p> section 1 group 1</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+        
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx3JZTIGwZgY6uiZ2PrkmiIqvnumn4YeUI7VPlhNKHVbYFcFZv_Vfiw8rX_96OWWQA3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        form.addEventListener('submit', e => {
+
+            e.preventDefault()
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+
+                .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    
+</body>
+</html>
